@@ -16,7 +16,7 @@ function App() {
     setPredictedPrice(null);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/predict", {
+      const response = await fetch("https://4c54af2e-cb22-43fa-a44f-0a631924b5f5-00-2qjedd5kzxiq4.pike.replit.dev/predict", {
         method: "POST",
         mode: "cors",
         headers: {
